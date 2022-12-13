@@ -1,0 +1,97 @@
+header{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.site-title{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.site-title h1{}
+
+.header-input{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.header-input input{
+    height: 50px;
+    width: 100%;
+    max-width: 700px;
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 20px;
+}
+
+.header-input input:focus {
+    outline: none;
+}
+
+.header-input input::placeholder{
+    font-size: 20px;
+}
+
+.header-input button{
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.main{
+    display: block;
+    justify-content: center;
+}
+
+.conteiner{
+    display: block;
+    width: 100%;
+    justify-content: center;
+}
+
+.film-card{
+    display: block;
+    width: 500px;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.film-card h1{
+    text-align: center;
+}
+
+.film-info{
+    display: block;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.film-img{
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+
+.film-img img{
+    width: 300px;
+    height: auto;
+}
+
+.film-nums{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
