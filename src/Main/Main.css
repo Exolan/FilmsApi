@@ -12,7 +12,10 @@ header{
     margin-bottom: 50px;
 }
 
-.site-title h1{}
+.site-title h1{
+    font-size: 70px;
+    text-shadow: 0 0 20px #f765ef;
+}
 
 .header-input{
     width: 100%;
@@ -26,23 +29,42 @@ header{
     width: 100%;
     max-width: 700px;
     border: none;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid pink;
+    background-color: inherit;
     font-size: 20px;
+    padding-left: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.header-input input:focus {
+.header-input input:focus, .header-input input:hover {
     outline: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #f765ef;
+    transform: translateY(-3px);
 }
+
 
 .header-input input::placeholder{
     font-size: 20px;
+    color: rgb(255, 255, 255, 0.5);
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header-input button{
+    cursor: pointer;
     width: 100px;
-    border: none;
-    border-radius: 10px;
+    background-color: inherit;
+    border: 2px solid pink;
+    border-radius: 20px;
     font-size: 15px;
+    color: white;
+}
+
+.header-input button:hover{
+    transform: translateY(-3px);
+    box-shadow: 5px 5px 15px #f765ef;
 }
 
 .main{
@@ -58,24 +80,34 @@ header{
 
 .film-card{
     display: block;
-    width: 500px;
+    width: 100%;
     justify-content: center;
-    border: 2px solid black;
-    border-radius: 30px;
     padding: 20px;
     margin-bottom: 20px;
 }
 
-.film-card h1{
+.film-info h1{
     text-align: center;
 }
 
 .film-info{
     display: block;
-    width: 100%;
+    width: 50%;
+    max-width: 500px;
+    margin: 0 auto;
     gap: 20px;
     justify-content: center;
     align-items: center;
+    border: 2px solid pink;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.film-info:hover{
+    box-shadow: 5px 5px 15px #f765ef;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
 }
 
 .film-img{

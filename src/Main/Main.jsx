@@ -75,7 +75,7 @@ export default function Main() {
               setClick(true);
             }}
           >
-            Поиск
+            <span>ПОИСК</span>
           </button>
         </div>
       </header>
@@ -84,8 +84,8 @@ export default function Main() {
           console.log(film);
           return (
             <div key={index} className='film-card'>
-              <h1>{!film.nameRu? film.nameEn: film.nameRu}</h1>
               <div className="film-info">
+                <h1>{!film.nameRu? film.nameEn: film.nameRu}</h1>
                 <div className="film-img">
                   <img src={film.posterUrl} alt="" />
                 </div>

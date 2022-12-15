@@ -1,3 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+h1, h2, h3, h4, span, p{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
 .App{
     width: 100%;
     max-width: 1980px;
